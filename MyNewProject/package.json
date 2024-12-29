@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Compiles to modern JavaScript
+    "module": "CommonJS", // Standard module system for Node.js
+    "outDir": "./dist", // Compiled files go into a "dist" folder
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true // Allow easier imports for ES modules
+  },
+  "include": ["src/**/*"], // All .ts files in the "src" folder
+  "exclude": ["node_modules", "dist"] // Ignore these folders
+},
+"dependencies": {
+  "clipboardy": "^2.3.0"
+}
